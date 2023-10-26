@@ -1,0 +1,17 @@
+
+.main__img--images {
+    width: 210px;
+    height: 210px;
+    transition: 0.5s;
+    padding: 6px;
+}
+
+.main__img--images:hover {
+    width: 240px;
+    height: 240px;
+}
+
+.gallery__main--images {
+    margin-top: 21px;
+    text-align: center;
+}

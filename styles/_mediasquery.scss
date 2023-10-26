@@ -1,0 +1,18 @@
+@media ( max-width: 991px) {
+    .navbar-expand-lg {
+        text-align: center;
+    }
+
+    .div__navbar__ul__li--a {
+        border-radius: 42px;
+    }
+}
+
+@media ( max-width: 600px) {
+    .videos__article__div--videos {
+        display: block;
+        flex-direction: column;
+        margin-top: 21px;
+        margin-bottom: 120px;
+    }
+}
