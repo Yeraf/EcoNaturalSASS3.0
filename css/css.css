@@ -1,3 +1,25 @@
+.about__main__div--container {
+  margin-top: 30px;
+  display: flex;
+}
+
+.about__main__div__article--flex {
+  margin-top: 60px;
+  width: 60%;
+  text-align: justify;
+  padding: 21px;
+}
+
+.about__main__article--img {
+  border-radius: 10px;
+}
+
+.about__article__two--container {
+  margin-top: 30px;
+  margin-bottom: 120px;
+  text-align: center;
+}
+
 .contact__main__h1 {
   text-align: center;
   margin-top: 30px;
