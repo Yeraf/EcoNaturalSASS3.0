@@ -12,6 +12,16 @@
     .about__main__container--contenido {
         display: block;
     }
+
+    .index__main__div__img--text {
+        width: 360px;
+        color: rgb(255, 255, 255);
+    }
+
+    .index__main__div__img--p {
+        width: 360px;
+        color: rgb(255, 255, 255);
+    }
 }
 
 @media ( max-width: 600px) {
@@ -20,6 +30,26 @@
         flex-direction: column;
         margin-top: 21px;
         margin-bottom: 120px;
+    }
+}
+
+@media ( max-width: 400px ) {
+
+    .index__main__div__img--text {
+        font-size: 30px !important;
+        margin-top: 210px;
+        color: antiquewhite !important;
+    }
+
+    .index__main__div__img--p {
+        display: none;
+    }
+}
+
+@media ( max-width: 360px ) {
+
+    .index__main__div__img--text {
+        display: none;
     }
 }
 

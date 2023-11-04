@@ -21,11 +21,14 @@
 
 .index__main__div__img--text {
     text-align: center;
-    @include tipografia(42px, white); 
+    @include tipografia(42px, white);
+    color: rgb(255, 255, 255);
 }
 
 .index__main__div__img--p {
     text-align: center;
+    font-size: 21px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 // Article 
